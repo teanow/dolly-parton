@@ -24,3 +24,25 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@import './assets/fonts/fontawesome/css/fontawesome.css';
+
+@font-face {
+  font-family: "irSans";
+  font-weight: normal;
+  font-style: normal;
+  src: url(./assets/fonts/sans/IRANSansWebFaNum.eot);
+  src: url(./assets/fonts/sans/IRANSansWebFaNum.eot?#iefix) format("embedded-opentype"),
+       url(./assets/fonts/sans/IRANSansWebFaNum.woff) format("woff"), 
+       url(./assets/fonts/sans/IRANSansWebFaNum.ttf) format("truetype");
+}
+
+*{
+    font-family: irSans;
+}
+.action-sheet-group
+{
+    display: flex;
+}.action-sheet-button-inner.sc-ion-action-sheet-md{
+    justify-content: center;
+}
